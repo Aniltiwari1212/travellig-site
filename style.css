@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+    .container{
+        width: 100%;
+        background-image: url(travellingphoto.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+    }
+    .menubar{
+        width:100%;
+        height:auto;
+       
+        
+        
+    }
+    ul{
+      
+        display: flex;
+       font-size:35px;
+      float:left;
+    margin: 10px;
+        }
+img{
+    float: left;
+}
+   
+ul li{
+list-style: none;
+margin-left: 60px;
+    }
+    ul li a{
+        text-decoration: none;
+        color:chocolate;
+        font-weight: bolder;
+    }
+    ul li a:hover{
+        color:black;
+        background-color:white;
+    }
+    .search-box{
+        
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 30px;
+            margin-left: 50px;
+          }
+    .search-box .search-txt{
+        width: 200px;
+        height: 20px;
+    }
+    .title{
+        position: absolute;
+        top: 27%;
+        left: 25%;
+ }
+ .title h1{
+    cursor: pointer;
+    font-size: 100px;
+    font-family: cursive;
+}
+
+ .button2{
+    position: absolute;
+    top:50% ;
+    left: 35%;
+}
+
+.btn{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-size: x-large;
+    border: 2px solid black;
+    transition:1s;
+}
+
+.btn:hover{
+    background-color: burlywood;
+    color:white;
+}
